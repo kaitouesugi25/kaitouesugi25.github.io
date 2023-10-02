@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>KaitoUesugiHW3</title>
+        <link rel="stylesheet" href="KaitoUesugiHW3.css">
+    </head>
+    <body>
+        <h1>Key Concepts in "Ways Of Seeing, EP1"</h1>
+        <div class="container">
+            <div class="card">
+                <h2>The Effect of Camera</h2>
+            <img src="cameraphotoforhw3.jpg">
+                <p>
+                    “The human eye can only be in one place at a time, it takes its visible world with it as it walks. With the invention of the camera, everything changed. We could see things which were not there in front of us. Appearances could travel across the world.” - John Berger
+                  </p>
+    
+            </div>
+            <div class="card">
+                <h2>Paintings Post Camera</h2>
+            <img src="girlwithearring.jpg">
+                <p>
+                    Paintings prior would exist only within a single space, but now have the ability to exist separately from its original physical context. While there is an argument that this reproduction dilutes the physical existence of artwork, this same act of reproduction can give a greater perpetually evolving context to the image itself.
+                  </p>
+    
+            </div>
+           
+           
+        
+    
+              
+    
+        </div>
+    </body>
+</html>
