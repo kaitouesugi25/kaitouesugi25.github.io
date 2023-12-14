@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/2.0.8/aframe/build/aframe-ar.js"></script>
+  <title>Red Floating Sphere</title>
+</head>
+<body>
+  <a-scene embedded arjs="trackingMethod: best;">
+    <!-- Marker with a red floating sphere -->
+    <a-marker preset="hiro" id="marker">
+      <a-sphere position="0 1.25 -5" radius="1.25" color="#FF0000" animation__rotate="property: rotation; easing: linear; loop: true; to: 0 360 0; dur: 5000"></a-sphere>
+    </a-marker>
+
+    <a-camera-static></a-camera-static>
+  </a-scene>
+</body>
+</html>
